@@ -1,0 +1,31 @@
+probe_id,text,language,sentiment_label,theme_codes,phenomenon
+P01,"Absolutely love this product, battery lasts for days and it works perfectly.",en,POSITIVE,PRODUCT_QUALITY,plain
+P02,"The app keeps crashing every time I open my cart. Fix it!",en,NEGATIVE,TECHNICAL_ISSUES,plain
+P03,"Delivery was on time, nothing special.",en,NEUTRAL,DELIVERY,plain
+P04,"Great sound quality but the battery dies within two hours.",en,MIXED,PRODUCT_QUALITY,mixed
+P05,"Customer care never called me back, three days and no reply.",en,NEGATIVE,CUSTOMER_SUPPORT,plain
+P06,"Payment failed twice but money got deducted from my account",en,NEGATIVE,PAYMENT,plain
+P07,"Not worth the money at all, very poor quality",en,NEGATIVE,PRICING|PRODUCT_QUALITY,negation
+P08,"Got my refund within 48 hours, impressed with how smooth the return pickup was.",en,POSITIVE,REFUNDS_RETURNS,plain
+P09,"Box arrived crushed and the glass jar inside was cracked.",en,NEGATIVE,PACKAGING,plain
+P10,"Oh great, another 'out of stock' notice. Exactly what I needed today.",en,NEGATIVE,PRODUCT_AVAILABILITY,sarcasm
+P11,"Checkout is so confusing, took me ten minutes to find the apply coupon button.",en,NEGATIVE,USER_EXPERIENCE,plain
+P12,"The price dropped right after I bought it, a bit annoying, but the product itself is solid.",en,MIXED,PRICING|PRODUCT_QUALITY,mixed
+P13,"I ordered the blue one and received the blue one.",en,NEUTRAL,,ambiguous
+P14,"Support agent Priya was patient and sorted out my login issue in one call. Thank you!",en,POSITIVE,CUSTOMER_SUPPORT|TECHNICAL_ISSUES,plain
+P15,"Wow, a whole week for delivery in the same city. Truly lightning fast.",en,NEGATIVE,DELIVERY,sarcasm
+P16,"Can you add UPI autopay for subscriptions?",en,NEUTRAL,PAYMENT,suggestion
+P17,"Fan is silent and cools the room quickly, totally happy with it",en,POSITIVE,PRODUCT_QUALITY,plain
+P18,"The courier was rude, but at least the parcel was intact.",en,MIXED,DELIVERY|PACKAGING,mixed
+P19,"Website looks clean now after the redesign, much easier to browse.",en,POSITIVE,USER_EXPERIENCE,plain
+P20,"Return window closed before the replacement even arrived, still waiting for my money.",en,NEGATIVE,REFUNDS_RETURNS,plain
+P21,"Mast product hai, bahut accha laga",hi,POSITIVE,PRODUCT_QUALITY,romanised
+P22,"Delivery bahut late thi aur koi update bhi nahi mila",hi,NEGATIVE,DELIVERY,romanised
+P23,"Paisa kat gaya par order confirm nahi hua",hi,NEGATIVE,PAYMENT,romanised
+P24,"उत्पाद अच्छा है लेकिन कीमत थोड़ी ज़्यादा है",hi,MIXED,PRODUCT_QUALITY|PRICING,native
+P25,"ग्राहक सेवा ने तुरंत मदद की, धन्यवाद",hi,POSITIVE,CUSTOMER_SUPPORT,native
+P26,"पैकिंग फटी हुई थी और सामान टूटा हुआ था",hi,NEGATIVE,PACKAGING,native
+P27,"Product chala bagundi, chala thanks",te,POSITIVE,PRODUCT_QUALITY,romanised
+P28,"Refund inka raaledu, chala late avutundi",te,NEGATIVE,REFUNDS_RETURNS,romanised
+P29,"డెలివరీ చాలా ఆలస్యంగా వచ్చింది",te,NEGATIVE,DELIVERY,native
+P30,"యాప్ చాలా బాగుంది, వాడటం సులభం",te,POSITIVE,USER_EXPERIENCE,native

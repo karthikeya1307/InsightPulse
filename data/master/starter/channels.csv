@@ -1,0 +1,9 @@
+channel_id,channel_code,channel_name,channel_type,supports_reviews,supports_surveys,supports_support,is_active,created_at
+CHN-000001,WEBSITE,Website,WEB,true,true,false,true,2022-01-01T09:00:00+05:30
+CHN-000002,MOBILE_APP,Mobile App,MOBILE_APP,true,true,true,true,2022-01-01T09:00:00+05:30
+CHN-000003,PARTNER_MARKETPLACE,Partner Marketplace,MARKETPLACE,true,false,false,true,2022-01-01T09:00:00+05:30
+CHN-000004,EMAIL,Email,EMAIL,false,true,true,true,2022-01-01T09:00:00+05:30
+CHN-000005,SMS,SMS,SMS,false,true,false,true,2022-01-01T09:00:00+05:30
+CHN-000006,PHONE_HELPLINE,Phone Helpline,PHONE,false,false,true,true,2022-01-01T09:00:00+05:30
+CHN-000007,LIVE_CHAT,Live Chat,CHAT,false,false,true,true,2022-01-01T09:00:00+05:30
+CHN-000008,SOCIAL_MEDIA,Social Media,SOCIAL,true,false,true,true,2022-01-01T09:00:00+05:30

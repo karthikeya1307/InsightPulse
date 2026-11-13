@@ -1,0 +1,12 @@
+[
+{"theme_id": "THEME-000001", "theme_code": "PRODUCT_QUALITY", "theme_name": "Product Quality", "description": "Build quality, durability, defects and performance of the product itself.", "keywords": "quality|defect|broke|durable|battery|stitching"},
+{"theme_id": "THEME-000002", "theme_code": "PRICING", "theme_name": "Pricing", "description": "Price level, value for money, discounts and price changes.", "keywords": "price|expensive|value|discount|cost"},
+{"theme_id": "THEME-000003", "theme_code": "DELIVERY", "theme_name": "Delivery", "description": "Shipping speed, courier behaviour, delivery accuracy and tracking.", "keywords": "delivery|courier|late|shipping|tracking"},
+{"theme_id": "THEME-000004", "theme_code": "CUSTOMER_SUPPORT", "theme_name": "Customer Support", "description": "Interactions with support agents: responsiveness, helpfulness, resolution.", "keywords": "support|agent|helpline|response|resolved"},
+{"theme_id": "THEME-000005", "theme_code": "USER_EXPERIENCE", "theme_name": "User Experience", "description": "Ease of use of the app/website/product, navigation and design.", "keywords": "app|website|easy|navigation|interface"},
+{"theme_id": "THEME-000006", "theme_code": "PAYMENT", "theme_name": "Payment", "description": "Checkout, payment methods, failed or double charges, UPI and cards.", "keywords": "payment|upi|card|charged|checkout"},
+{"theme_id": "THEME-000007", "theme_code": "PRODUCT_AVAILABILITY", "theme_name": "Product Availability", "description": "Stock-outs, restocking, variant and size availability.", "keywords": "stock|available|restock|sold out"},
+{"theme_id": "THEME-000008", "theme_code": "PACKAGING", "theme_name": "Packaging", "description": "Packaging condition, protection, sustainability and presentation.", "keywords": "packaging|box|damaged|seal|plastic"},
+{"theme_id": "THEME-000009", "theme_code": "REFUNDS_RETURNS", "theme_name": "Refunds and Returns", "description": "Return pickup, refund speed, replacement and return policy.", "keywords": "refund|return|replacement|pickup"},
+{"theme_id": "THEME-000010", "theme_code": "TECHNICAL_ISSUES", "theme_name": "Technical Issues", "description": "Crashes, login failures, bugs, connectivity and firmware problems.", "keywords": "crash|bug|login|error|firmware"}
+]

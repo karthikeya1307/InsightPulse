@@ -1,0 +1,46 @@
+# Local infrastructure for InsightPulse.
+#   docker compose up -d db                 -> PostgreSQL 16 only (recommended for local dev)
+#   docker compose --profile app up -d      -> PostgreSQL + API + dashboard containers
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: insightpulse-db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-insightpulse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-insightpulse}
+      POSTGRES_DB: ${POSTGRES_DB:-insightpulse}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/init/create_test_db.sql:/docker-entrypoint-initdb.d/01_create_test_db.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-insightpulse} -d ${POSTGRES_DB:-insightpulse}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    profiles: ["app"]
+    build: .
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-insightpulse}:${POSTGRES_PASSWORD:-insightpulse}@db:5432/${POSTGRES_DB:-insightpulse}
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data", "./ml/saved_models:/app/ml/saved_models"]
+    depends_on:
+      db: {condition: service_healthy}
+
+  dashboard:
+    profiles: ["app"]
+    build: .
+    command: streamlit run dashboard/Home.py --server.port 8501 --server.address 0.0.0.0
+    env_file: .env
+    environment:
+      API_BASE_URL: http://api:8000
+    ports: ["8501:8501"]
+    depends_on: [api]
+
+volumes:
+  pgdata:

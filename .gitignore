@@ -1,0 +1,30 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.DS_Store
+logs/
+# Trained models are reproducible from the pipeline (python -m scripts.run_pipeline);
+# metrics are recorded in data/exports/<scale>/evaluation_report.json and docs/evaluation.md.
+ml/saved_models/*/
+# Full-scale uncompressed generated data is reproducible; compressed bundle is committed.
+data/raw/full/
+data/master/full/
+data/ground_truth/full/*.csv
+data/ground_truth/full/*.json
+!data/ground_truth/full/.gitkeep
+data/processed/full/
+data/exceptions/full/
+data/exports/full/*
+!data/exports/full/*.zip
+!data/exports/full/manifest.json
+!data/exports/full/checksums.json
+!data/exports/full/evaluation_report.json
+!data/exports/full/free_text_probe_report.json
+!data/exports/full/reproducibility_report.json
+!data/exports/full/pipeline_run_summary.json
+data/repro_runs/

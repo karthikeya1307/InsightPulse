@@ -1,0 +1,254 @@
+[
+ {
+  "action_id": "ACT-2026-000001",
+  "title": "Product Quality complaints concentrated on Voltix Pulse Wireless Earbuds",
+  "description": "15 of 21 product quality mentions for Voltix Pulse Wireless Earbuds were negative (71%) between 2026-08-03 and 2026-10-31, 1.9x the product quality negative share across all products (38%).",
+  "product_id": "PRD-000001",
+  "theme_id": "THEME-000001",
+  "rule_code": "NEGATIVE_THEME_CONCENTRATION",
+  "priority": "HIGH",
+  "evidence_count": 15,
+  "negative_count": 15,
+  "total_count": 21,
+  "negative_share": 0.71429,
+  "metrics": {
+   "lift": 1.899,
+   "thresholds": {
+    "min_lift": 1.3,
+    "min_negative_count": 5,
+    "min_negative_share": 0.45
+   },
+   "theme_baseline_share": 0.3761
+  },
+  "recommended_action": "Quarantine affected batches, run root-cause analysis with the manufacturer and offer proactive replacements.",
+  "owner": "Quality Engineering",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-08-03",
+  "window_end": "2026-10-31",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": "Voltix Pulse Wireless Earbuds"
+ },
+ {
+  "action_id": "ACT-2026-000002",
+  "title": "Technical Issues complaints concentrated on Voltix Pulse Wireless Earbuds",
+  "description": "6 of 8 technical issues mentions for Voltix Pulse Wireless Earbuds were negative (75%) between 2026-08-03 and 2026-10-31, 1.3x the technical issues negative share across all products (57%).",
+  "product_id": "PRD-000001",
+  "theme_id": "THEME-000010",
+  "rule_code": "NEGATIVE_THEME_CONCENTRATION",
+  "priority": "HIGH",
+  "evidence_count": 6,
+  "negative_count": 6,
+  "total_count": 8,
+  "negative_share": 0.75,
+  "metrics": {
+   "lift": 1.312,
+   "thresholds": {
+    "min_lift": 1.3,
+    "min_negative_count": 5,
+    "min_negative_share": 0.45
+   },
+   "theme_baseline_share": 0.5714
+  },
+  "recommended_action": "Triage crash/login reports, consider rolling back the latest release and add release monitoring.",
+  "owner": "App Engineering",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-08-03",
+  "window_end": "2026-10-31",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": "Voltix Pulse Wireless Earbuds"
+ },
+ {
+  "action_id": "ACT-2026-000003",
+  "title": "Technical Issues complaints concentrated on NimbusHome Turbo Mixer Grinder",
+  "description": "6 of 6 technical issues mentions for NimbusHome Turbo Mixer Grinder were negative (100%) between 2026-08-03 and 2026-10-31, 1.8x the technical issues negative share across all products (57%).",
+  "product_id": "PRD-000002",
+  "theme_id": "THEME-000010",
+  "rule_code": "NEGATIVE_THEME_CONCENTRATION",
+  "priority": "HIGH",
+  "evidence_count": 6,
+  "negative_count": 6,
+  "total_count": 6,
+  "negative_share": 1.0,
+  "metrics": {
+   "lift": 1.75,
+   "thresholds": {
+    "min_lift": 1.3,
+    "min_negative_count": 5,
+    "min_negative_share": 0.45
+   },
+   "theme_baseline_share": 0.5714
+  },
+  "recommended_action": "Triage crash/login reports, consider rolling back the latest release and add release monitoring.",
+  "owner": "App Engineering",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-08-03",
+  "window_end": "2026-10-31",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": "NimbusHome Turbo Mixer Grinder"
+ },
+ {
+  "action_id": "ACT-2026-000004",
+  "title": "Delivery complaints concentrated on Voltix 20000mAh Power Bank",
+  "description": "5 of 6 delivery mentions for Voltix 20000mAh Power Bank were negative (83%) between 2026-08-03 and 2026-10-31, 1.4x the delivery negative share across all products (58%).",
+  "product_id": "PRD-000011",
+  "theme_id": "THEME-000003",
+  "rule_code": "NEGATIVE_THEME_CONCENTRATION",
+  "priority": "HIGH",
+  "evidence_count": 5,
+  "negative_count": 5,
+  "total_count": 6,
+  "negative_share": 0.83333,
+  "metrics": {
+   "lift": 1.434,
+   "thresholds": {
+    "min_lift": 1.3,
+    "min_negative_count": 5,
+    "min_negative_share": 0.45
+   },
+   "theme_baseline_share": 0.581
+  },
+  "recommended_action": "Escalate with courier partners, add SLA monitoring per region and notify affected customers proactively.",
+  "owner": "Logistics Operations",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-08-03",
+  "window_end": "2026-10-31",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": "Voltix 20000mAh Power Bank"
+ },
+ {
+  "action_id": "ACT-2026-000005",
+  "title": "Delivery complaints concentrated on Tejas Trail Sandals",
+  "description": "7 of 8 delivery mentions for Tejas Trail Sandals were negative (88%) between 2026-08-03 and 2026-10-31, 1.5x the delivery negative share across all products (58%).",
+  "product_id": "PRD-000018",
+  "theme_id": "THEME-000003",
+  "rule_code": "NEGATIVE_THEME_CONCENTRATION",
+  "priority": "HIGH",
+  "evidence_count": 7,
+  "negative_count": 7,
+  "total_count": 8,
+  "negative_share": 0.875,
+  "metrics": {
+   "lift": 1.506,
+   "thresholds": {
+    "min_lift": 1.3,
+    "min_negative_count": 5,
+    "min_negative_share": 0.45
+   },
+   "theme_baseline_share": 0.581
+  },
+  "recommended_action": "Escalate with courier partners, add SLA monitoring per region and notify affected customers proactively.",
+  "owner": "Logistics Operations",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-08-03",
+  "window_end": "2026-10-31",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": "Tejas Trail Sandals"
+ },
+ {
+  "action_id": "ACT-2026-000006",
+  "title": "Spike in negative product availability feedback",
+  "description": "1 week(s) with unusual negative product availability feedback; peak week 2026-10-05 at 62% vs baseline 17% (z=3.4).",
+  "product_id": null,
+  "theme_id": "THEME-000007",
+  "rule_code": "SENTIMENT_SHIFT",
+  "priority": "HIGH",
+  "evidence_count": 5,
+  "negative_count": 5,
+  "total_count": 8,
+  "negative_share": 0.625,
+  "metrics": {
+   "alerts": [
+    {
+     "volume": 8,
+     "z_score": 3.4,
+     "period_start": "2026-10-05",
+     "baseline_rate": 0.1666,
+     "negative_rate": 0.625
+    }
+   ],
+   "thresholds": {
+    "z": 2.0,
+    "min_volume": 8,
+    "min_increase": 0.1
+   }
+  },
+  "recommended_action": "Revisit demand forecast and safety stock; enable back-in-stock notifications.",
+  "owner": "Supply Chain Planning",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-10-05",
+  "window_end": "2026-10-11",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": null
+ },
+ {
+  "action_id": "ACT-2026-000007",
+  "title": "Spike in negative technical issues feedback",
+  "description": "1 week(s) with unusual negative technical issues feedback; peak week 2026-09-07 at 91% vs baseline 30% (z=2.15).",
+  "product_id": null,
+  "theme_id": "THEME-000010",
+  "rule_code": "SENTIMENT_SHIFT",
+  "priority": "HIGH",
+  "evidence_count": 10,
+  "negative_count": 10,
+  "total_count": 11,
+  "negative_share": 0.90909,
+  "metrics": {
+   "alerts": [
+    {
+     "volume": 11,
+     "z_score": 2.15,
+     "period_start": "2026-09-07",
+     "baseline_rate": 0.3043,
+     "negative_rate": 0.9091
+    }
+   ],
+   "thresholds": {
+    "z": 2.0,
+    "min_volume": 8,
+    "min_increase": 0.1
+   }
+  },
+  "recommended_action": "Triage crash/login reports, consider rolling back the latest release and add release monitoring.",
+  "owner": "App Engineering",
+  "status": "OPEN",
+  "origin": "RULE",
+  "duplicate_reason": null,
+  "run_id": "RUN-000001",
+  "window_start": "2026-09-07",
+  "window_end": "2026-09-13",
+  "due_date": "2026-11-25",
+  "created_at": "2026-11-11T19:16:36.748050+00:00",
+  "updated_at": "2026-11-11T19:16:36.748050+00:00",
+  "product_name": null
+ }
+]

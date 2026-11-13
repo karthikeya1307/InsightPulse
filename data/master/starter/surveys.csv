@@ -1,0 +1,11 @@
+survey_id,title,survey_type,product_id,channel_id,question_text,start_date,end_date,status,created_at,updated_at
+SUR-2026-000001,Customer Satisfaction Pulse #1,CSAT,,CHN-000005,How satisfied are you with your recent shopping experience? Please tell us why.,2026-01-01,2026-04-27,CLOSED,2025-12-25T09:00:00+05:30,2026-04-27T09:00:00+05:30
+SUR-2026-000002,Net Promoter Score Survey #2,NPS,,CHN-000001,How likely are you to recommend us to a friend? What is the main reason for your score?,2026-01-30,2026-05-03,CLOSED,2026-01-23T09:00:00+05:30,2026-05-03T09:00:00+05:30
+SUR-2026-000003,Product Feedback: Tejas Trail Sandals #3,PRODUCT_FEEDBACK,PRD-000018,CHN-000002,What do you think about the product you purchased?,2026-02-20,2026-05-06,CLOSED,2026-02-13T09:00:00+05:30,2026-05-06T09:00:00+05:30
+SUR-2026-000004,Post-Support Experience Survey #4,POST_SUPPORT,,CHN-000005,How was your experience with our support team?,2026-03-27,2026-07-22,CLOSED,2026-03-20T09:00:00+05:30,2026-07-22T09:00:00+05:30
+SUR-2026-000005,Customer Satisfaction Pulse #5,CSAT,,CHN-000004,How satisfied are you with your recent shopping experience? Please tell us why.,2026-04-26,2026-08-17,CLOSED,2026-04-19T09:00:00+05:30,2026-08-17T09:00:00+05:30
+SUR-2026-000006,Product Feedback: Tejas Trail Sandals #6,PRODUCT_FEEDBACK,PRD-000018,CHN-000002,What do you think about the product you purchased?,2026-06-01,2026-08-27,CLOSED,2026-05-25T09:00:00+05:30,2026-08-27T09:00:00+05:30
+SUR-2026-000007,Post-Support Experience Survey #7,POST_SUPPORT,,CHN-000004,How was your experience with our support team?,2026-06-26,2026-09-13,CLOSED,2026-06-19T09:00:00+05:30,2026-09-13T09:00:00+05:30
+SUR-2026-000008,Net Promoter Score Survey #8,NPS,,CHN-000004,How likely are you to recommend us to a friend? What is the main reason for your score?,2026-07-28,2026-11-20,ACTIVE,2026-07-21T09:00:00+05:30,2026-10-31T09:00:00+05:30
+SUR-2026-000009,Net Promoter Score Survey #9,NPS,,CHN-000002,How likely are you to recommend us to a friend? What is the main reason for your score?,2026-08-28,2026-12-16,ACTIVE,2026-08-21T09:00:00+05:30,2026-10-31T09:00:00+05:30
+SUR-2026-000010,Net Promoter Score Survey #10,NPS,,CHN-000001,How likely are you to recommend us to a friend? What is the main reason for your score?,2026-09-23,2027-01-04,ACTIVE,2026-09-16T09:00:00+05:30,2026-10-31T09:00:00+05:30

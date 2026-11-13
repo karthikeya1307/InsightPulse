@@ -1,0 +1,19 @@
+{
+  "scale": "starter",
+  "records_checked": {
+    "channels": 8,
+    "products": 20,
+    "customers": 300,
+    "surveys": 10,
+    "survey_responses": 504,
+    "reviews": 500,
+    "support_tickets": 78,
+    "support_messages": 200,
+    "annotations": 955,
+    "themes": 10,
+    "ticket_status_events": 241
+  },
+  "records_rejected": {},
+  "issues_by_rule": {},
+  "issues": []
+}

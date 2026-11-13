@@ -1,0 +1,7 @@
+[
+{"event_code": "PAYMENT_GATEWAY_OUTAGE", "theme_code": "PAYMENT", "start": "2026-04-13", "end": "2026-04-26", "intensity": 0.4, "description": "Payment gateway outage causing failed and double charges.", "product_id": null, "category": null, "sources": ["SURVEY_RESPONSE", "REVIEW", "SUPPORT_MESSAGE"]},
+{"event_code": "EARBUDS_BATTERY_DEFECT", "theme_code": "PRODUCT_QUALITY", "start": "2026-06-15", "end": "2026-10-31", "intensity": 0.6, "description": "Battery defect in a production batch of PRD-000001 (wireless earbuds).", "product_id": "PRD-000001", "category": null, "sources": ["SURVEY_RESPONSE", "REVIEW", "SUPPORT_MESSAGE"]},
+{"event_code": "GROCERY_PRICE_HIKE", "theme_code": "PRICING", "start": "2026-07-01", "end": "2026-07-31", "intensity": 0.45, "description": "Price increase across the Grocery category.", "product_id": null, "category": "Grocery", "sources": ["SURVEY_RESPONSE", "REVIEW", "SUPPORT_MESSAGE"]},
+{"event_code": "COURIER_DISRUPTION", "theme_code": "DELIVERY", "start": "2026-08-03", "end": "2026-08-30", "intensity": 0.4, "description": "Courier partner disruption during monsoon floods.", "product_id": null, "category": null, "sources": ["SURVEY_RESPONSE", "REVIEW", "SUPPORT_MESSAGE"]},
+{"event_code": "APP_RELEASE_REGRESSION", "theme_code": "TECHNICAL_ISSUES", "start": "2026-09-08", "end": "2026-09-27", "intensity": 0.35, "description": "Mobile app release 7.2 introduced crash and login regressions.", "product_id": null, "category": null, "sources": ["REVIEW", "SUPPORT_MESSAGE", "SURVEY_RESPONSE"]}
+]

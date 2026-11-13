@@ -1,0 +1,11 @@
+theme_id,theme_code,theme_name,description,keywords
+THEME-000001,PRODUCT_QUALITY,Product Quality,"Build quality, durability, defects and performance of the product itself.",quality|defect|broke|durable|battery|stitching
+THEME-000002,PRICING,Pricing,"Price level, value for money, discounts and price changes.",price|expensive|value|discount|cost
+THEME-000003,DELIVERY,Delivery,"Shipping speed, courier behaviour, delivery accuracy and tracking.",delivery|courier|late|shipping|tracking
+THEME-000004,CUSTOMER_SUPPORT,Customer Support,"Interactions with support agents: responsiveness, helpfulness, resolution.",support|agent|helpline|response|resolved
+THEME-000005,USER_EXPERIENCE,User Experience,"Ease of use of the app/website/product, navigation and design.",app|website|easy|navigation|interface
+THEME-000006,PAYMENT,Payment,"Checkout, payment methods, failed or double charges, UPI and cards.",payment|upi|card|charged|checkout
+THEME-000007,PRODUCT_AVAILABILITY,Product Availability,"Stock-outs, restocking, variant and size availability.",stock|available|restock|sold out
+THEME-000008,PACKAGING,Packaging,"Packaging condition, protection, sustainability and presentation.",packaging|box|damaged|seal|plastic
+THEME-000009,REFUNDS_RETURNS,Refunds and Returns,"Return pickup, refund speed, replacement and return policy.",refund|return|replacement|pickup
+THEME-000010,TECHNICAL_ISSUES,Technical Issues,"Crashes, login failures, bugs, connectivity and firmware problems.",crash|bug|login|error|firmware

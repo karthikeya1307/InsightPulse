@@ -1,0 +1,154 @@
+{
+  "run_id": "RUN-000001",
+  "scale": "full",
+  "steps": {
+    "ingest": {
+      "scale": "full",
+      "loaded": {
+        "channels": 8,
+        "products": 40,
+        "customers": 12000,
+        "surveys": 120,
+        "survey_responses": 50300,
+        "reviews": 50000,
+        "support_tickets": 7543,
+        "support_messages": 20000,
+        "feedback_items": 112020,
+        "feedback_annotations": 95128,
+        "state_change_events": 135197
+      },
+      "raw_rows": {
+        "channels": 8,
+        "products": 40,
+        "customers": 12000,
+        "surveys": 120,
+        "survey_responses": 50300,
+        "reviews": 50000,
+        "support_tickets": 7543,
+        "support_messages": 20000,
+        "annotations": 95128
+      },
+      "rejected": {
+        "channels": 0,
+        "products": 0,
+        "surveys": 0,
+        "customers": 0,
+        "support_tickets": 0,
+        "survey_responses": 0,
+        "reviews": 0,
+        "support_messages": 0,
+        "annotations": 0
+      },
+      "file_issues": 0,
+      "seconds": 17.34
+    },
+    "validate": {
+      "issues_detected": 2436,
+      "issues_by_rule": {
+        "DUPLICATE_RESPONSE": 300,
+        "LABEL_CONTRADICTION": 950,
+        "PRIVACY_LEAK": 448,
+        "TARGET_LEAKAGE": 168,
+        "THEME_TAXONOMY": 570
+      },
+      "explained_rating_mismatches": 246,
+      "resolutions": {
+        "quarantined": 448,
+        "flagged_duplicates": 300,
+        "annotations_excluded": 1502,
+        "annotations_eligible": 93626,
+        "feedback_validated": 111272
+      },
+      "summary_file": "/home/user/insightpulse/data/exceptions/full/validation_summary.json",
+      "seconds": 15.44
+    },
+    "train": {
+      "train_records": 77087,
+      "validation_records": 16539,
+      "sentiment": {
+        "model_version": "1.0.0+1bd573276d",
+        "validation": {
+          "accuracy": 1.0,
+          "macro_f1": 1.0
+        },
+        "selected_C": 1.0
+      },
+      "themes": {
+        "model_version": "1.0.0+ac92b12c40",
+        "validation": {
+          "micro_f1": 1.0,
+          "macro_f1": 1.0,
+          "micro_precision": 1.0,
+          "micro_recall": 1.0
+        }
+      },
+      "seconds": 140.45
+    },
+    "predict": {
+      "scored": 111272,
+      "theme_assignments": 166074,
+      "needs_human_review": 281,
+      "lexicon_fallbacks": 0,
+      "sentiment_model_version": "1.0.0+1bd573276d",
+      "theme_model_version": "1.0.0+ac92b12c40",
+      "items_per_second": 1251.3,
+      "seconds": 88.93
+    },
+    "actions": {
+      "candidates": 43,
+      "created": 34,
+      "refreshed_existing": 0,
+      "merged_into_existing_issue": 9,
+      "created_ids": [
+        "ACT-2026-000001",
+        "ACT-2026-000002",
+        "ACT-2026-000003",
+        "ACT-2026-000004",
+        "ACT-2026-000005",
+        "ACT-2026-000006",
+        "ACT-2026-000007",
+        "ACT-2026-000008",
+        "ACT-2026-000009",
+        "ACT-2026-000010",
+        "ACT-2026-000011",
+        "ACT-2026-000012",
+        "ACT-2026-000013",
+        "ACT-2026-000014",
+        "ACT-2026-000015",
+        "ACT-2026-000016",
+        "ACT-2026-000017",
+        "ACT-2026-000018",
+        "ACT-2026-000019",
+        "ACT-2026-000020",
+        "ACT-2026-000021",
+        "ACT-2026-000022",
+        "ACT-2026-000023",
+        "ACT-2026-000024",
+        "ACT-2026-000025",
+        "ACT-2026-000026",
+        "ACT-2026-000027",
+        "ACT-2026-000028",
+        "ACT-2026-000029",
+        "ACT-2026-000030",
+        "ACT-2026-000031",
+        "ACT-2026-000032",
+        "ACT-2026-000033",
+        "ACT-2026-000034"
+      ],
+      "seconds": 2.32
+    }
+  },
+  "status": "SUCCEEDED",
+  "evaluation": {
+    "sentiment_accuracy": 1.0,
+    "sentiment_macro_f1": 1.0,
+    "theme_micro_f1": 0.9999,
+    "theme_macro_f1": 0.9999,
+    "dq_detection_recall": 1.0,
+    "dq_unexplained_issues": 0,
+    "report": "data/exports/full/evaluation_report.json"
+  },
+  "total_seconds": 284.38,
+  "peak_rss_mb": 1178,
+  "exit_code": 0
+}

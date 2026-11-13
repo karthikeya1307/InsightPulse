@@ -1,0 +1,6 @@
+event_code,theme_code,start,end,intensity,description,product_id,category,sources
+PAYMENT_GATEWAY_OUTAGE,PAYMENT,2026-04-13,2026-04-26,0.4,Payment gateway outage causing failed and double charges.,,,SURVEY_RESPONSE|REVIEW|SUPPORT_MESSAGE
+EARBUDS_BATTERY_DEFECT,PRODUCT_QUALITY,2026-06-15,2026-10-31,0.6,Battery defect in a production batch of PRD-000001 (wireless earbuds).,PRD-000001,,SURVEY_RESPONSE|REVIEW|SUPPORT_MESSAGE
+GROCERY_PRICE_HIKE,PRICING,2026-07-01,2026-07-31,0.45,Price increase across the Grocery category.,,Grocery,SURVEY_RESPONSE|REVIEW|SUPPORT_MESSAGE
+COURIER_DISRUPTION,DELIVERY,2026-08-03,2026-08-30,0.4,Courier partner disruption during monsoon floods.,,,SURVEY_RESPONSE|REVIEW|SUPPORT_MESSAGE
+APP_RELEASE_REGRESSION,TECHNICAL_ISSUES,2026-09-08,2026-09-27,0.35,Mobile app release 7.2 introduced crash and login regressions.,,,REVIEW|SUPPORT_MESSAGE|SURVEY_RESPONSE

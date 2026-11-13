@@ -1,0 +1,207 @@
+{
+  "run_id": "RUN-000002",
+  "generated_at": "2026-11-11T19:16:40+00:00",
+  "record_counts": {
+    "feedback_items": 1120,
+    "annotations": 955,
+    "survey_responses": 504,
+    "reviews": 500,
+    "support_tickets": 78,
+    "support_messages": 200,
+    "customers": 300,
+    "products": 20,
+    "surveys": 10,
+    "action_items": 7
+  },
+  "feedback_status": {
+    "PROCESSED": 1112,
+    "QUARANTINED": 4,
+    "DUPLICATE": 4
+  },
+  "annotation_training_status": {
+    "EXCLUDED": 18,
+    "ELIGIBLE": 937
+  },
+  "checks": {
+    "PK_UNIQUENESS": {
+      "description": "Primary keys are unique within each file/table",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "FK_INTEGRITY": {
+      "description": "Every foreign key references an existing parent record",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "ID_FORMAT": {
+      "description": "Identifiers follow the documented conventions",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "ENUM_VALUE": {
+      "description": "Categorical fields contain allowed values only",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "REQUIRED_FIELD": {
+      "description": "Required fields are present",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "INVALID_DATE": {
+      "description": "Dates parse and are not in the future",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "RATING_BOUNDS": {
+      "description": "Ratings 1-5, NPS 0-10, counters non-negative",
+      "issues": 0,
+      "default_resolution": "REJECTED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "DATE_ORDER": {
+      "description": "Chronology across related records is consistent",
+      "issues": 0,
+      "default_resolution": "FLAGGED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "DUPLICATE_RESPONSE": {
+      "description": "Same customer submitted identical text to the same survey",
+      "issues": 4,
+      "default_resolution": "FLAGGED",
+      "status": "FAIL",
+      "by_severity": {
+        "MEDIUM": 4
+      }
+    },
+    "DUPLICATE_FEEDBACK": {
+      "description": "Same customer posted identical review text for the same product",
+      "issues": 0,
+      "default_resolution": "FLAGGED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "LIFECYCLE_TRANSITION": {
+      "description": "State changes follow the allowed state machine and match current state",
+      "issues": 0,
+      "default_resolution": "FLAGGED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "ARITHMETIC_RECONCILIATION": {
+      "description": "Derived counts equal counts recomputed from source records",
+      "issues": 0,
+      "default_resolution": "FLAGGED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "SOURCE_CONSISTENCY": {
+      "description": "Feedback/ticket/survey/channel/product relationships agree",
+      "issues": 0,
+      "default_resolution": "FLAGGED",
+      "status": "PASS",
+      "by_severity": {}
+    },
+    "THEME_TAXONOMY": {
+      "description": "Theme labels belong to the controlled taxonomy",
+      "issues": 6,
+      "default_resolution": "REJECTED",
+      "status": "FAIL",
+      "by_severity": {
+        "MEDIUM": 6
+      }
+    },
+    "PRIVACY_LEAK": {
+      "description": "Free text contains customer identity (e-mail, phone, own full name)",
+      "issues": 4,
+      "default_resolution": "QUARANTINED",
+      "status": "FAIL",
+      "by_severity": {
+        "HIGH": 4
+      }
+    },
+    "LABEL_CONTRADICTION": {
+      "description": "Annotation label contradicts the text/rating without explanation",
+      "issues": 10,
+      "default_resolution": "EXCLUDED_FROM_TRAINING",
+      "status": "FAIL",
+      "by_severity": {
+        "HIGH": 10
+      }
+    },
+    "TARGET_LEAKAGE": {
+      "description": "Evaluation (TEST) records or labels present in model training input",
+      "issues": 4,
+      "default_resolution": "EXCLUDED_FROM_TRAINING",
+      "status": "FAIL",
+      "by_severity": {
+        "CRITICAL": 4
+      }
+    }
+  },
+  "totals": {
+    "issues": 28,
+    "primary_key_violations": 0,
+    "foreign_key_violations": 0,
+    "duplicates": 4,
+    "invalid_taxonomy": 6,
+    "privacy_violations": 4,
+    "label_contradictions": 10,
+    "target_leakage": 4,
+    "feedback_items_with_issues": 28,
+    "validation_pass_rate": 0.975,
+    "checks_passed": 12,
+    "checks_total": 17
+  },
+  "issue_breakdown": [
+    {
+      "rule_code": "DUPLICATE_RESPONSE",
+      "severity": "MEDIUM",
+      "entity_type": "SURVEY_RESPONSE",
+      "resolution_action": "FLAGGED",
+      "n": 4
+    },
+    {
+      "rule_code": "LABEL_CONTRADICTION",
+      "severity": "HIGH",
+      "entity_type": "FEEDBACK_ANNOTATION",
+      "resolution_action": "EXCLUDED_FROM_TRAINING",
+      "n": 10
+    },
+    {
+      "rule_code": "PRIVACY_LEAK",
+      "severity": "HIGH",
+      "entity_type": "FEEDBACK_ITEM",
+      "resolution_action": "QUARANTINED",
+      "n": 4
+    },
+    {
+      "rule_code": "TARGET_LEAKAGE",
+      "severity": "CRITICAL",
+      "entity_type": "FEEDBACK_ANNOTATION",
+      "resolution_action": "EXCLUDED_FROM_TRAINING",
+      "n": 4
+    },
+    {
+      "rule_code": "THEME_TAXONOMY",
+      "severity": "MEDIUM",
+      "entity_type": "FEEDBACK_ANNOTATION",
+      "resolution_action": "REJECTED",
+      "n": 6
+    }
+  ]
+}

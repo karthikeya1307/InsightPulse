@@ -1,0 +1,127 @@
+{
+  "run_id": "RUN-000001",
+  "scale": "starter",
+  "steps": {
+    "ingest": {
+      "scale": "starter",
+      "loaded": {
+        "channels": 8,
+        "products": 20,
+        "customers": 300,
+        "surveys": 10,
+        "survey_responses": 504,
+        "reviews": 500,
+        "support_tickets": 78,
+        "support_messages": 200,
+        "feedback_items": 1120,
+        "feedback_annotations": 955,
+        "state_change_events": 1361
+      },
+      "raw_rows": {
+        "channels": 8,
+        "products": 20,
+        "customers": 300,
+        "surveys": 10,
+        "survey_responses": 504,
+        "reviews": 500,
+        "support_tickets": 78,
+        "support_messages": 200,
+        "annotations": 955
+      },
+      "rejected": {
+        "channels": 0,
+        "products": 0,
+        "surveys": 0,
+        "customers": 0,
+        "support_tickets": 0,
+        "survey_responses": 0,
+        "reviews": 0,
+        "support_messages": 0,
+        "annotations": 0
+      },
+      "file_issues": 0,
+      "seconds": 0.18
+    },
+    "validate": {
+      "issues_detected": 28,
+      "issues_by_rule": {
+        "DUPLICATE_RESPONSE": 4,
+        "LABEL_CONTRADICTION": 10,
+        "PRIVACY_LEAK": 4,
+        "TARGET_LEAKAGE": 4,
+        "THEME_TAXONOMY": 6
+      },
+      "explained_rating_mismatches": 4,
+      "resolutions": {
+        "quarantined": 4,
+        "flagged_duplicates": 4,
+        "annotations_excluded": 18,
+        "annotations_eligible": 937,
+        "feedback_validated": 1112
+      },
+      "summary_file": "/home/user/insightpulse/data/exceptions/starter/validation_summary.json",
+      "seconds": 0.16
+    },
+    "train": {
+      "train_records": 771,
+      "validation_records": 166,
+      "sentiment": {
+        "model_version": "1.0.0+e0e1b7fddc",
+        "validation": {
+          "accuracy": 0.9578,
+          "macro_f1": 0.9455
+        },
+        "selected_C": 8.0
+      },
+      "themes": {
+        "model_version": "1.0.0+4f71dc2770",
+        "validation": {
+          "micro_f1": 0.9827,
+          "macro_f1": 0.9841,
+          "micro_precision": 0.9846,
+          "micro_recall": 0.9808
+        }
+      },
+      "seconds": 6.53
+    },
+    "predict": {
+      "scored": 1112,
+      "theme_assignments": 1688,
+      "needs_human_review": 37,
+      "lexicon_fallbacks": 5,
+      "sentiment_model_version": "1.0.0+e0e1b7fddc",
+      "theme_model_version": "1.0.0+4f71dc2770",
+      "items_per_second": 1056.3,
+      "seconds": 1.05
+    },
+    "actions": {
+      "candidates": 7,
+      "created": 7,
+      "refreshed_existing": 0,
+      "merged_into_existing_issue": 0,
+      "created_ids": [
+        "ACT-2026-000001",
+        "ACT-2026-000002",
+        "ACT-2026-000003",
+        "ACT-2026-000004",
+        "ACT-2026-000005",
+        "ACT-2026-000006",
+        "ACT-2026-000007"
+      ],
+      "seconds": 1.27
+    }
+  },
+  "status": "SUCCEEDED",
+  "evaluation": {
+    "sentiment_accuracy": 0.9697,
+    "sentiment_macro_f1": 0.9677,
+    "theme_micro_f1": 0.9602,
+    "theme_macro_f1": 0.9534,
+    "dq_detection_recall": 1.0,
+    "dq_unexplained_issues": 0,
+    "report": "data/exports/starter/evaluation_report.json"
+  },
+  "total_seconds": 11.48,
+  "peak_rss_mb": 281,
+  "exit_code": 0
+}

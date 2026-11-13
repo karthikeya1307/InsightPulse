@@ -1,0 +1,10 @@
+[
+{"channel_id": "CHN-000001", "channel_code": "WEBSITE", "channel_name": "Website", "channel_type": "WEB", "supports_reviews": true, "supports_surveys": true, "supports_support": false, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000002", "channel_code": "MOBILE_APP", "channel_name": "Mobile App", "channel_type": "MOBILE_APP", "supports_reviews": true, "supports_surveys": true, "supports_support": true, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000003", "channel_code": "PARTNER_MARKETPLACE", "channel_name": "Partner Marketplace", "channel_type": "MARKETPLACE", "supports_reviews": true, "supports_surveys": false, "supports_support": false, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000004", "channel_code": "EMAIL", "channel_name": "Email", "channel_type": "EMAIL", "supports_reviews": false, "supports_surveys": true, "supports_support": true, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000005", "channel_code": "SMS", "channel_name": "SMS", "channel_type": "SMS", "supports_reviews": false, "supports_surveys": true, "supports_support": false, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000006", "channel_code": "PHONE_HELPLINE", "channel_name": "Phone Helpline", "channel_type": "PHONE", "supports_reviews": false, "supports_surveys": false, "supports_support": true, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000007", "channel_code": "LIVE_CHAT", "channel_name": "Live Chat", "channel_type": "CHAT", "supports_reviews": false, "supports_surveys": false, "supports_support": true, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"},
+{"channel_id": "CHN-000008", "channel_code": "SOCIAL_MEDIA", "channel_name": "Social Media", "channel_type": "SOCIAL", "supports_reviews": true, "supports_surveys": false, "supports_support": true, "is_active": true, "created_at": "2022-01-01T09:00:00+05:30"}
+]

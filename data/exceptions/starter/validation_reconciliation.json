@@ -1,0 +1,43 @@
+{
+  "injected_total": 28,
+  "injected_detected": 28,
+  "detection_recall": 1.0,
+  "detection_precision": 1.0,
+  "injected_anomaly_detection": {
+    "DUPLICATE_RESPONSE": {
+      "injected": 4,
+      "detected": 4,
+      "missed_record_ids": [],
+      "recall": 1.0
+    },
+    "PRIVACY_LEAK": {
+      "injected": 4,
+      "detected": 4,
+      "missed_record_ids": [],
+      "recall": 1.0
+    },
+    "LABEL_CONTRADICTION": {
+      "injected": 10,
+      "detected": 10,
+      "missed_record_ids": [],
+      "recall": 1.0
+    },
+    "INVALID_THEME": {
+      "injected": 6,
+      "detected": 6,
+      "missed_record_ids": [],
+      "recall": 1.0
+    },
+    "TARGET_LEAKAGE": {
+      "injected": 4,
+      "detected": 4,
+      "missed_record_ids": [],
+      "recall": 1.0
+    }
+  },
+  "unexplained_issues": 0,
+  "unexplained_by_rule": {},
+  "unexplained_examples": [],
+  "live_submission_issues": 0,
+  "live_submission_issues_by_rule": {}
+}

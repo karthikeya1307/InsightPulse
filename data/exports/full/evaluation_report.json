@@ -1,0 +1,663 @@
+{
+  "generated_at": "2026-11-11T19:14:55+00:00",
+  "scale": "full",
+  "evaluated_run": {
+    "run_id": "RUN-000001",
+    "sentiment_model_version": "1.0.0+1bd573276d",
+    "theme_model_version": "1.0.0+ac92b12c40"
+  },
+  "ground_truth": {
+    "evaluation_records": 16760,
+    "reviewer": "HUMAN-REVIEW-PANEL-A (synthetic)",
+    "split": "TEST (never used for training or tuning)"
+  },
+  "sentiment": {
+    "n": 16696,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "evaluation_records": 16760,
+    "scored_records": 16696,
+    "coverage": 0.9962,
+    "unscored_reasons": {
+      "QUARANTINED": 64
+    },
+    "labels": [
+      "POSITIVE",
+      "NEGATIVE",
+      "NEUTRAL",
+      "MIXED"
+    ],
+    "confusion_matrix": [
+      [
+        5072,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5979,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3174,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2471
+      ]
+    ],
+    "classification_report": {
+      "POSITIVE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5072.0
+      },
+      "NEGATIVE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5979.0
+      },
+      "NEUTRAL": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3174.0
+      },
+      "MIXED": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2471.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16696.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16696.0
+      }
+    },
+    "weighted_f1": 1.0,
+    "slices": {
+      "language": {
+        "en": {
+          "n": 13694,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "hi": {
+          "n": 1849,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "te": {
+          "n": 1153,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "language_variant": {
+        "en": {
+          "n": 13694,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "hi": {
+          "n": 908,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "hi_rom": {
+          "n": 941,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "te": {
+          "n": 601,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "te_rom": {
+          "n": 552,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "source_type": {
+        "REVIEW": {
+          "n": 7468,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "SUPPORT_MESSAGE": {
+          "n": 1753,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "SURVEY_RESPONSE": {
+          "n": 7475,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "writing_style": {
+        "casual": {
+          "n": 1838,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "emoji": {
+          "n": 1250,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "emphatic": {
+          "n": 935,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "formal": {
+          "n": 1298,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "standard": {
+          "n": 9100,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "terse": {
+          "n": 1539,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "typo": {
+          "n": 736,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "is_sarcasm": {
+        "true": {
+          "n": 566,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "false": {
+          "n": 16130,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "is_ambiguous": {
+        "true": {
+          "n": 531,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "false": {
+          "n": 16165,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "needs_human_review": {
+        "true": {
+          "n": 32,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "false": {
+          "n": 16664,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      },
+      "text_seen_in_train": {
+        "true": {
+          "n": 5210,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        },
+        "false": {
+          "n": 11486,
+          "accuracy": 1.0,
+          "macro_precision": 1.0,
+          "macro_recall": 1.0,
+          "macro_f1": 1.0
+        }
+      }
+    },
+    "baselines": {
+      "majority_class": {
+        "label": "NEGATIVE",
+        "n": 16696,
+        "accuracy": 0.3581,
+        "macro_precision": 0.0895,
+        "macro_recall": 0.25,
+        "macro_f1": 0.1318
+      },
+      "lexicon_only": {
+        "n": 16696,
+        "accuracy": 0.807,
+        "macro_precision": 0.7819,
+        "macro_recall": 0.791,
+        "macro_f1": 0.7857
+      }
+    }
+  },
+  "themes": {
+    "n": 16696,
+    "micro_precision": 1.0,
+    "micro_recall": 0.9998,
+    "micro_f1": 0.9999,
+    "macro_precision": 1.0,
+    "macro_recall": 0.9998,
+    "macro_f1": 0.9999,
+    "subset_accuracy": 0.9997,
+    "hamming_loss": 0.0,
+    "per_theme": [
+      {
+        "theme_id": "THEME-000001",
+        "theme_name": "Product Quality",
+        "precision": 1.0,
+        "recall": 0.9996,
+        "f1": 0.9998,
+        "support": 4649
+      },
+      {
+        "theme_id": "THEME-000002",
+        "theme_name": "Pricing",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2813
+      },
+      {
+        "theme_id": "THEME-000003",
+        "theme_name": "Delivery",
+        "precision": 1.0,
+        "recall": 0.9997,
+        "f1": 0.9999,
+        "support": 3590
+      },
+      {
+        "theme_id": "THEME-000004",
+        "theme_name": "Customer Support",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2839
+      },
+      {
+        "theme_id": "THEME-000005",
+        "theme_name": "User Experience",
+        "precision": 1.0,
+        "recall": 0.9995,
+        "f1": 0.9998,
+        "support": 2162
+      },
+      {
+        "theme_id": "THEME-000006",
+        "theme_name": "Payment",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1623
+      },
+      {
+        "theme_id": "THEME-000007",
+        "theme_name": "Product Availability",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1651
+      },
+      {
+        "theme_id": "THEME-000008",
+        "theme_name": "Packaging",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2002
+      },
+      {
+        "theme_id": "THEME-000009",
+        "theme_name": "Refunds and Returns",
+        "precision": 1.0,
+        "recall": 0.9993,
+        "f1": 0.9997,
+        "support": 1521
+      },
+      {
+        "theme_id": "THEME-000010",
+        "theme_name": "Technical Issues",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2176
+      }
+    ],
+    "records_without_true_theme": 531,
+    "text_seen_in_train_slices": {
+      "true": {
+        "n": 5210,
+        "micro_f1": 1.0,
+        "macro_f1": 1.0
+      },
+      "false": {
+        "n": 11486,
+        "micro_f1": 0.9999,
+        "macro_f1": 0.9999
+      }
+    },
+    "language_slices": {
+      "en": {
+        "n": 13694,
+        "micro_f1": 0.9999
+      },
+      "hi": {
+        "n": 1849,
+        "micro_f1": 1.0
+      },
+      "te": {
+        "n": 1153,
+        "micro_f1": 1.0
+      }
+    }
+  },
+  "data_quality": {
+    "issues": 2436,
+    "primary_key_violations": 0,
+    "foreign_key_violations": 0,
+    "duplicates": 300,
+    "invalid_taxonomy": 570,
+    "privacy_violations": 448,
+    "label_contradictions": 950,
+    "target_leakage": 168,
+    "feedback_items_with_issues": 2436,
+    "validation_pass_rate": 0.978254,
+    "checks_passed": 12,
+    "checks_total": 17,
+    "issues_by_rule": {
+      "PK_UNIQUENESS": 0,
+      "FK_INTEGRITY": 0,
+      "ID_FORMAT": 0,
+      "ENUM_VALUE": 0,
+      "REQUIRED_FIELD": 0,
+      "INVALID_DATE": 0,
+      "RATING_BOUNDS": 0,
+      "DATE_ORDER": 0,
+      "DUPLICATE_RESPONSE": 300,
+      "DUPLICATE_FEEDBACK": 0,
+      "LIFECYCLE_TRANSITION": 0,
+      "ARITHMETIC_RECONCILIATION": 0,
+      "SOURCE_CONSISTENCY": 0,
+      "THEME_TAXONOMY": 570,
+      "PRIVACY_LEAK": 448,
+      "LABEL_CONTRADICTION": 950,
+      "TARGET_LEAKAGE": 168
+    },
+    "injected_anomaly_detection": {
+      "DUPLICATE_RESPONSE": {
+        "injected": 300,
+        "detected": 300,
+        "missed_record_ids": [],
+        "recall": 1.0
+      },
+      "PRIVACY_LEAK": {
+        "injected": 448,
+        "detected": 448,
+        "missed_record_ids": [],
+        "recall": 1.0
+      },
+      "LABEL_CONTRADICTION": {
+        "injected": 950,
+        "detected": 950,
+        "missed_record_ids": [],
+        "recall": 1.0
+      },
+      "INVALID_THEME": {
+        "injected": 570,
+        "detected": 570,
+        "missed_record_ids": [],
+        "recall": 1.0
+      },
+      "TARGET_LEAKAGE": {
+        "injected": 168,
+        "detected": 168,
+        "missed_record_ids": [],
+        "recall": 1.0
+      }
+    },
+    "injected_total": 2436,
+    "injected_detected": 2436,
+    "detection_recall": 1.0,
+    "detection_precision": 1.0,
+    "live_submission_issues": 0,
+    "live_submission_issues_by_rule": {},
+    "unexplained_issues": 0,
+    "unexplained_by_rule": {},
+    "unexplained_examples": []
+  },
+  "business_intelligence": {
+    "recurring_negative_themes_detected": 10,
+    "sentiment_shift_alerts": 36,
+    "alerts_overlapping_known_scenarios": 11,
+    "alert_precision_vs_scenarios": 0.3056,
+    "scenario_events": [
+      {
+        "event_code": "PAYMENT_GATEWAY_OUTAGE",
+        "theme": "PAYMENT",
+        "window": [
+          "2026-04-13",
+          "2026-04-26"
+        ],
+        "scope": "all products",
+        "detected_by_theme_alert": true,
+        "detected_by_any_alert": true,
+        "alert_weeks": [
+          "2026-04-13"
+        ],
+        "related_actions": [
+          "ACT-2026-000005",
+          "ACT-2026-000009",
+          "ACT-2026-000011",
+          "ACT-2026-000012",
+          "ACT-2026-000030"
+        ]
+      },
+      {
+        "event_code": "EARBUDS_BATTERY_DEFECT",
+        "theme": "PRODUCT_QUALITY",
+        "window": [
+          "2026-06-15",
+          "2026-10-31"
+        ],
+        "scope": "product/category",
+        "detected_by_theme_alert": true,
+        "detected_by_any_alert": true,
+        "alert_weeks": [
+          "2026-08-03",
+          "2026-08-10"
+        ],
+        "related_actions": [
+          "ACT-2026-000001",
+          "ACT-2026-000026"
+        ]
+      },
+      {
+        "event_code": "GROCERY_PRICE_HIKE",
+        "theme": "PRICING",
+        "window": [
+          "2026-07-01",
+          "2026-07-31"
+        ],
+        "scope": "product/category",
+        "detected_by_theme_alert": true,
+        "detected_by_any_alert": true,
+        "alert_weeks": [
+          "2026-06-29",
+          "2026-07-06"
+        ],
+        "related_actions": [
+          "ACT-2026-000002",
+          "ACT-2026-000023",
+          "ACT-2026-000024",
+          "ACT-2026-000025"
+        ]
+      },
+      {
+        "event_code": "COURIER_DISRUPTION",
+        "theme": "DELIVERY",
+        "window": [
+          "2026-08-03",
+          "2026-08-30"
+        ],
+        "scope": "all products",
+        "detected_by_theme_alert": true,
+        "detected_by_any_alert": true,
+        "alert_weeks": [
+          "2026-08-03"
+        ],
+        "related_actions": [
+          "ACT-2026-000027"
+        ]
+      },
+      {
+        "event_code": "APP_RELEASE_REGRESSION",
+        "theme": "TECHNICAL_ISSUES",
+        "window": [
+          "2026-09-08",
+          "2026-09-27"
+        ],
+        "scope": "all products",
+        "detected_by_theme_alert": true,
+        "detected_by_any_alert": true,
+        "alert_weeks": [
+          "2026-09-07"
+        ],
+        "related_actions": [
+          "ACT-2026-000014",
+          "ACT-2026-000034"
+        ]
+      }
+    ],
+    "scenario_recall_theme_alerts": 1.0,
+    "scenario_recall_with_actions": 1.0,
+    "actions_generated": 34,
+    "actions_by_rule": {
+      "NEGATIVE_THEME_CONCENTRATION": 13,
+      "RECURRING_COMPLAINT": 12,
+      "SENTIMENT_SHIFT": 9
+    },
+    "actions_by_priority": {
+      "CRITICAL": 6,
+      "HIGH": 16,
+      "MEDIUM": 12
+    },
+    "evidence_traceability": {
+      "actions_with_complete_evidence": 34,
+      "actions_total": 34,
+      "traceability_rate": 1.0,
+      "evidence_links": 6417,
+      "evidence_analysable_rate": 1.0,
+      "evidence_negative_rate": 1.0,
+      "evidence_theme_match_rate": 1.0
+    }
+  },
+  "reproducibility": {
+    "manifest": {
+      "generator_version": "1.0.0",
+      "seed": 20261022,
+      "scale": "full",
+      "command": "python -m generator.generate_data --scale full --seed 20261022",
+      "row_counts": {
+        "master/channels": 8,
+        "master/products": 40,
+        "master/customers": 12000,
+        "master/surveys": 120,
+        "master/themes": 10,
+        "master/sentiment_labels": 4,
+        "raw/reviews": 50000,
+        "raw/survey_responses": 50300,
+        "raw/support_tickets": 7543,
+        "raw/support_messages": 20000,
+        "raw/ticket_status_events": 23177,
+        "raw/annotations": 95128,
+        "raw/dataset_splits": 112020,
+        "ground_truth/ground_truth": 2436,
+        "ground_truth/evaluation_set": 16760,
+        "ground_truth/scenario_events": 5
+      },
+      "files": 32
+    }
+  }
+}

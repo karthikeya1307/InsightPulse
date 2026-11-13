@@ -1,0 +1,5 @@
+label_code,display_name,polarity,description
+POSITIVE,Positive,1,Feedback expresses satisfaction or praise.
+NEGATIVE,Negative,-1,Feedback expresses dissatisfaction or a complaint (incl. sarcasm).
+NEUTRAL,Neutral,0,"Factual, ambiguous or suggestion-only feedback without clear polarity."
+MIXED,Mixed,0,Feedback contains both clearly positive and clearly negative statements.

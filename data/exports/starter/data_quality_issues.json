@@ -1,0 +1,528 @@
+[
+ {
+  "issue_id": "DQ-000001",
+  "run_id": "RUN-000002",
+  "rule_code": "DUPLICATE_RESPONSE",
+  "severity": "MEDIUM",
+  "entity_type": "SURVEY_RESPONSE",
+  "record_id": "RESP-SUR-2026-000001-083",
+  "field_name": null,
+  "message": "Duplicate of RESP-SUR-2026-000001-032 (same survey, customer and text)",
+  "details": {
+   "survey_id": "SUR-2026-000001",
+   "customer_id": "CUS-000017",
+   "duplicate_of": "RESP-SUR-2026-000001-032"
+  },
+  "resolution_action": "FLAGGED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000002",
+  "run_id": "RUN-000002",
+  "rule_code": "DUPLICATE_RESPONSE",
+  "severity": "MEDIUM",
+  "entity_type": "SURVEY_RESPONSE",
+  "record_id": "RESP-SUR-2026-000001-084",
+  "field_name": null,
+  "message": "Duplicate of RESP-SUR-2026-000001-065 (same survey, customer and text)",
+  "details": {
+   "survey_id": "SUR-2026-000001",
+   "customer_id": "CUS-000219",
+   "duplicate_of": "RESP-SUR-2026-000001-065"
+  },
+  "resolution_action": "FLAGGED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000003",
+  "run_id": "RUN-000002",
+  "rule_code": "DUPLICATE_RESPONSE",
+  "severity": "MEDIUM",
+  "entity_type": "SURVEY_RESPONSE",
+  "record_id": "RESP-SUR-2026-000005-062",
+  "field_name": null,
+  "message": "Duplicate of RESP-SUR-2026-000005-011 (same survey, customer and text)",
+  "details": {
+   "survey_id": "SUR-2026-000005",
+   "customer_id": "CUS-000100",
+   "duplicate_of": "RESP-SUR-2026-000005-011"
+  },
+  "resolution_action": "FLAGGED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000004",
+  "run_id": "RUN-000002",
+  "rule_code": "DUPLICATE_RESPONSE",
+  "severity": "MEDIUM",
+  "entity_type": "SURVEY_RESPONSE",
+  "record_id": "RESP-SUR-2026-000005-061",
+  "field_name": null,
+  "message": "Duplicate of RESP-SUR-2026-000005-004 (same survey, customer and text)",
+  "details": {
+   "survey_id": "SUR-2026-000005",
+   "customer_id": "CUS-000114",
+   "duplicate_of": "RESP-SUR-2026-000005-004"
+  },
+  "resolution_action": "FLAGGED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000005",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000046",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['SHIPPING_SPEED']",
+  "details": {
+   "feedback_id": "FB-REV-2026-000030",
+   "invalid_labels": [
+    "SHIPPING_SPEED"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000006",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000089",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['THEME-000011']",
+  "details": {
+   "feedback_id": "FB-RESP-SUR-2026-000001-045",
+   "invalid_labels": [
+    "THEME-000011"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000007",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000092",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['THEME-000011']",
+  "details": {
+   "feedback_id": "FB-REV-2026-000053",
+   "invalid_labels": [
+    "THEME-000011"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000008",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000197",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['THEME-00003']",
+  "details": {
+   "feedback_id": "FB-RESP-SUR-2026-000001-064",
+   "invalid_labels": [
+    "THEME-00003"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000009",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000794",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['THEME-000099']",
+  "details": {
+   "feedback_id": "FB-RESP-SUR-2026-000009-017",
+   "invalid_labels": [
+    "THEME-000099"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000010",
+  "run_id": "RUN-000002",
+  "rule_code": "THEME_TAXONOMY",
+  "severity": "MEDIUM",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000858",
+  "field_name": "theme_labels",
+  "message": "Theme label(s) outside taxonomy rejected: ['THEME-00003']",
+  "details": {
+   "feedback_id": "FB-MSG-TKT-2026-000069-001",
+   "invalid_labels": [
+    "THEME-00003"
+   ]
+  },
+  "resolution_action": "REJECTED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000011",
+  "run_id": "RUN-000002",
+  "rule_code": "PRIVACY_LEAK",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ITEM",
+  "record_id": "FB-REV-2026-000465",
+  "field_name": "feedback_text",
+  "message": "Customer identity found in text (EMAIL); record quarantined",
+  "details": {
+   "pii_types": [
+    "EMAIL"
+   ]
+  },
+  "resolution_action": "QUARANTINED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000012",
+  "run_id": "RUN-000002",
+  "rule_code": "PRIVACY_LEAK",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ITEM",
+  "record_id": "FB-MSG-TKT-2026-000045-001",
+  "field_name": "feedback_text",
+  "message": "Customer identity found in text (EMAIL, NAME); record quarantined",
+  "details": {
+   "pii_types": [
+    "EMAIL",
+    "NAME"
+   ]
+  },
+  "resolution_action": "QUARANTINED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000013",
+  "run_id": "RUN-000002",
+  "rule_code": "PRIVACY_LEAK",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ITEM",
+  "record_id": "FB-MSG-TKT-2026-000048-001",
+  "field_name": "feedback_text",
+  "message": "Customer identity found in text (EMAIL, PHONE); record quarantined",
+  "details": {
+   "pii_types": [
+    "EMAIL",
+    "PHONE"
+   ]
+  },
+  "resolution_action": "QUARANTINED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000014",
+  "run_id": "RUN-000002",
+  "rule_code": "PRIVACY_LEAK",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ITEM",
+  "record_id": "FB-MSG-TKT-2026-000059-003",
+  "field_name": "feedback_text",
+  "message": "Customer identity found in text (EMAIL); record quarantined",
+  "details": {
+   "pii_types": [
+    "EMAIL"
+   ]
+  },
+  "resolution_action": "QUARANTINED",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000015",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000030",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 5 with no annotator note",
+  "details": {
+   "rating": 5,
+   "feedback_id": "FB-REV-2026-000019"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000016",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000066",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 5 with no annotator note",
+  "details": {
+   "rating": 5,
+   "feedback_id": "FB-REV-2026-000037"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000017",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000094",
+  "field_name": "sentiment_label",
+  "message": "Label POSITIVE contradicts rating 1 with no annotator note",
+  "details": {
+   "rating": 1,
+   "feedback_id": "FB-REV-2026-000054"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000018",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000146",
+  "field_name": "sentiment_label",
+  "message": "Label POSITIVE contradicts rating 1 with no annotator note",
+  "details": {
+   "rating": 1,
+   "feedback_id": "FB-RESP-SUR-2026-000003-007"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000019",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000227",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 4 with no annotator note",
+  "details": {
+   "rating": 4,
+   "feedback_id": "FB-RESP-SUR-2026-000002-030"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000020",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000363",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 5 with no annotator note",
+  "details": {
+   "rating": 5,
+   "feedback_id": "FB-REV-2026-000179"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000021",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000591",
+  "field_name": "sentiment_label",
+  "message": "Label POSITIVE contradicts rating 2 with no annotator note",
+  "details": {
+   "rating": 2,
+   "feedback_id": "FB-REV-2026-000299"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000022",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000617",
+  "field_name": "sentiment_label",
+  "message": "Label POSITIVE contradicts rating 1 with no annotator note",
+  "details": {
+   "rating": 1,
+   "feedback_id": "FB-REV-2026-000310"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000023",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000886",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 5 with no annotator note",
+  "details": {
+   "rating": 5,
+   "feedback_id": "FB-RESP-SUR-2026-000010-008"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000024",
+  "run_id": "RUN-000002",
+  "rule_code": "LABEL_CONTRADICTION",
+  "severity": "HIGH",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000911",
+  "field_name": "sentiment_label",
+  "message": "Label NEGATIVE contradicts rating 4 with no annotator note",
+  "details": {
+   "rating": 4,
+   "feedback_id": "FB-RESP-SUR-2026-000008-060"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000025",
+  "run_id": "RUN-000002",
+  "rule_code": "TARGET_LEAKAGE",
+  "severity": "CRITICAL",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000952",
+  "field_name": "declared_split",
+  "message": "Annotation declared TRAIN but record belongs to TEST (evaluation set) - label would leak into training",
+  "details": {
+   "feedback_id": "FB-RESP-SUR-2026-000008-026",
+   "actual_split": "TEST"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000026",
+  "run_id": "RUN-000002",
+  "rule_code": "TARGET_LEAKAGE",
+  "severity": "CRITICAL",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000953",
+  "field_name": "declared_split",
+  "message": "Annotation declared TRAIN but record belongs to TEST (evaluation set) - label would leak into training",
+  "details": {
+   "feedback_id": "FB-REV-2026-000196",
+   "actual_split": "TEST"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000027",
+  "run_id": "RUN-000002",
+  "rule_code": "TARGET_LEAKAGE",
+  "severity": "CRITICAL",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000954",
+  "field_name": "declared_split",
+  "message": "Annotation declared TRAIN but record belongs to TEST (evaluation set) - label would leak into training",
+  "details": {
+   "feedback_id": "FB-REV-2026-000301",
+   "actual_split": "TEST"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ },
+ {
+  "issue_id": "DQ-000028",
+  "run_id": "RUN-000002",
+  "rule_code": "TARGET_LEAKAGE",
+  "severity": "CRITICAL",
+  "entity_type": "FEEDBACK_ANNOTATION",
+  "record_id": "ANN-2026-000955",
+  "field_name": "declared_split",
+  "message": "Annotation declared TRAIN but record belongs to TEST (evaluation set) - label would leak into training",
+  "details": {
+   "feedback_id": "FB-REV-2026-000495",
+   "actual_split": "TEST"
+  },
+  "resolution_action": "EXCLUDED_FROM_TRAINING",
+  "status": "OPEN",
+  "detected_at": "2026-11-11T19:16:29.006415+00:00",
+  "last_seen_at": "2026-11-11T19:16:40.196679+00:00"
+ }
+]

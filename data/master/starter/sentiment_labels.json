@@ -1,0 +1,6 @@
+[
+{"label_code": "POSITIVE", "display_name": "Positive", "polarity": 1, "description": "Feedback expresses satisfaction or praise."},
+{"label_code": "NEGATIVE", "display_name": "Negative", "polarity": -1, "description": "Feedback expresses dissatisfaction or a complaint (incl. sarcasm)."},
+{"label_code": "NEUTRAL", "display_name": "Neutral", "polarity": 0, "description": "Factual, ambiguous or suggestion-only feedback without clear polarity."},
+{"label_code": "MIXED", "display_name": "Mixed", "polarity": 0, "description": "Feedback contains both clearly positive and clearly negative statements."}
+]

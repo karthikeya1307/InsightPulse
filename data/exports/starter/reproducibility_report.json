@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-11-11T19:16:44+00:00",
+  "scale": "starter",
+  "seed": 20261022,
+  "generator_version": "1.0.0",
+  "configuration": {
+    "name": "starter",
+    "n_reviews": 500,
+    "n_survey_responses": 500,
+    "n_support_messages": 200,
+    "n_customers": 300,
+    "n_products": 20,
+    "n_surveys": 10,
+    "start_date": "2026-01-01",
+    "end_date": "2026-10-31",
+    "native_language_use_prob": 0.4,
+    "romanised_share": 0.5,
+    "sarcasm_rate": 0.1,
+    "ambiguous_rate": 0.2,
+    "suggestion_rate": 0.35,
+    "theme_count_weights": [
+      0.6,
+      0.33,
+      0.07
+    ],
+    "train_share": 0.7,
+    "validation_share": 0.15,
+    "anomaly_rates": {
+      "LABEL_CONTRADICTION": 0.01,
+      "DUPLICATE_RESPONSE": 0.006,
+      "PRIVACY_LEAK": 0.004,
+      "INVALID_THEME": 0.006,
+      "TARGET_LEAKAGE": 0.01
+    },
+    "anomaly_min_count": 4,
+    "explained_mismatch_rate": 0.004
+  },
+  "command": "python -m generator.generate_data --scale starter --seed 20261022",
+  "runs": [
+    {
+      "directory": "data/repro_runs/starter/run_1",
+      "seconds": 0.14
+    },
+    {
+      "directory": "data/repro_runs/starter/run_2",
+      "seconds": 0.1
+    }
+  ],
+  "row_counts": {
+    "master/channels": 8,
+    "master/products": 20,
+    "master/customers": 300,
+    "master/surveys": 10,
+    "master/themes": 10,
+    "master/sentiment_labels": 4,
+    "raw/reviews": 500,
+    "raw/survey_responses": 504,
+    "raw/support_tickets": 78,
+    "raw/support_messages": 200,
+    "raw/ticket_status_events": 241,
+    "raw/annotations": 955,
+    "raw/dataset_splits": 1120,
+    "ground_truth/ground_truth": 28,
+    "ground_truth/evaluation_set": 165,
+    "ground_truth/scenario_events": 5
+  },
+  "file_checksums_sha256": {
+    "ground_truth/starter/evaluation_set.csv": "5a28f4edec1926da8bcf441972558e5b20c39aa89dc33a3e7a71e6d8e7739627",
+    "ground_truth/starter/evaluation_set.json": "e1cedfe0c02a23fa0135ceb8fbcc5fe55483c25b86be951468f4ad27db9e2efa",
+    "ground_truth/starter/ground_truth.csv": "d107fef8f5c87f1fa1f3e40977a8cab89ebccc2d3e2b9fb0ebec920ea928419d",
+    "ground_truth/starter/ground_truth.json": "00ecfe4cd2e42f66911c39ace1d606619745f7535a8003528b7a42e46b08b453",
+    "ground_truth/starter/scenario_events.csv": "8d7126bc5ff0b6048a81333470f4916e707b2bae70fea5568cb1ddb54b77e5c8",
+    "ground_truth/starter/scenario_events.json": "eee9b42dcbf4f92277bb97530c1a26877564ae1ccee653fbb2604d00ae36043b",
+    "master/starter/channels.csv": "f2527b376f4e9262aeddb0c68886562dd0626a39dfeb47a26951b1c4e446e845",
+    "master/starter/channels.json": "f3c6a3c107681a07f794c0633095ffacb87a00c9dce04b8760bc3dd87da41639",
+    "master/starter/customers.csv": "8a15e34e8e56e1fc80c100efd6d66e1ef82c4267dcd960c9b8ce88b86141f16e",
+    "master/starter/customers.json": "10d26b9db977acc2af1a6a2c47a28af7c681e3eea38c48ec6fd02c24c821a133",
+    "master/starter/products.csv": "5f0093a433a1fd87baae41a89491854a970a27f0ad56f996b495c59b5ddc5ca4",
+    "master/starter/products.json": "683c76887fc959cc70dc1ac1b6464d07f63444dde9d598403967f8c77d2ea29b",
+    "master/starter/sentiment_labels.csv": "4b9daf03f3ede8433ba2a0bff05683c5328a6cbbf40e6667e316a84bf0217642",
+    "master/starter/sentiment_labels.json": "e68e43c9ccdd87fc801792434629e377b4dda6e3c651b2d935d51df05b9702c0",
+    "master/starter/surveys.csv": "927c669a274bff1c2bec5a03bfa0ff7de475a64f7e1d3dd6065782f504d7e7bf",
+    "master/starter/surveys.json": "c0a6c5f8d08ceb94b6aa700717752fe138263eecab04a2b333cc71287b0c7bae",
+    "master/starter/themes.csv": "f6f3c2ca4ab13fc0320597f711f977f8d03a9b7d01c046618610adf22504cf3a",
+    "master/starter/themes.json": "7927991c18aedb56c9325b755bfcf3b83ae979cdb0124bf776adf2df0dbc6bd3",
+    "raw/starter/annotations.csv": "308b3b6d5684960272e79db704ae5fdcfb9f1c254f65d91b022be5365af6c0c7",
+    "raw/starter/annotations.json": "884a85d0ea56e7dd0403ddef83236ee01481375b99c5697e3919c18aeba14509",
+    "raw/starter/dataset_splits.csv": "b3bb2571eecb163262b1878bf7ff5c0a4ce4926f7f43df6c658f2891fa5553ba",
+    "raw/starter/dataset_splits.json": "ce0b20de7841be13bbcf970447e75393feeeb8177ee6b6f79029e097ffbddc8f",
+    "raw/starter/reviews.csv": "af3b9311ef9a4d2a0d0c864bc908fa6b8b789c25985d2d08e60453f1d710f172",
+    "raw/starter/reviews.json": "2ee254f60944cf92bfe383eeba4114e78f7c0960ddff227a97b62b0b5487aaa2",
+    "raw/starter/support_messages.csv": "7ae352ef189d3d8736775725d56f67b0709cf9dea9f19507b522d0da43347b7f",
+    "raw/starter/support_messages.json": "9cc3e34e8a6bb26134552948d6cb3a7f1253e475c95886c97a27e13eb946637f",
+    "raw/starter/support_tickets.csv": "daeefb37553ab07a8bfff061cd992d1703c2b813a38044a43e115ef73378c0b1",
+    "raw/starter/support_tickets.json": "6383253ee087c0d980b3f809743ae6f1aaa4323301a89e78654021925e02b4a8",
+    "raw/starter/survey_responses.csv": "c7bf24f9484bcf9f7e8a42d2f3d9a4d825ac6ff4eb82f39e909304f1c5531539",
+    "raw/starter/survey_responses.json": "3cefec8f5edf03f6e8c0eab8d6fd5444b7ab77e28128009ff534d9bc7a70b29b",
+    "raw/starter/ticket_status_events.csv": "077c28fa57b1e6fcfdd1c0e597858cbb871804de54328746f0f3223716eafe8b",
+    "raw/starter/ticket_status_events.json": "3eb1cd2d5916029a994ec65930ee53dbfb7df0324f05dc0592ee16045faedb35"
+  },
+  "comparison": {
+    "row_counts_identical": true,
+    "files_compared": 32,
+    "files_with_different_checksum": [],
+    "ids_identical": true,
+    "ids": {
+      "channels": {
+        "count": 8,
+        "identical": true
+      },
+      "products": {
+        "count": 20,
+        "identical": true
+      },
+      "customers": {
+        "count": 300,
+        "identical": true
+      },
+      "themes": {
+        "count": 10,
+        "identical": true
+      },
+      "surveys": {
+        "count": 10,
+        "identical": true
+      },
+      "survey_responses": {
+        "count": 504,
+        "identical": true
+      },
+      "reviews": {
+        "count": 500,
+        "identical": true
+      },
+      "support_tickets": {
+        "count": 78,
+        "identical": true
+      },
+      "support_messages": {
+        "count": 200,
+        "identical": true
+      },
+      "annotations": {
+        "count": 955,
+        "identical": true
+      },
+      "evaluation_set": {
+        "count": 165,
+        "identical": true
+      },
+      "ground_truth": {
+        "count": 28,
+        "identical": true
+      }
+    },
+    "labels_identical": true,
+    "labels": {
+      "annotations": true,
+      "evaluation_set": true,
+      "ground_truth": true
+    },
+    "relationships_identical": true,
+    "relationships": {
+      "surveys": true,
+      "survey_responses": true,
+      "reviews": true,
+      "support_tickets": true,
+      "support_messages": true
+    },
+    "foreign_keys_valid": {
+      "run_1": true,
+      "run_2": true,
+      "broken_run_1": {}
+    },
+    "matches_committed_dataset": true
+  },
+  "status": "PASS"
+}

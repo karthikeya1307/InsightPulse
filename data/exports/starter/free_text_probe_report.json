@@ -1,0 +1,549 @@
+{
+  "probe_file": "data/probe/free_text_probe.csv",
+  "n": 30,
+  "models": {
+    "sentiment": "1.0.0+e0e1b7fddc",
+    "themes": "1.0.0+4f71dc2770"
+  },
+  "sentiment": {
+    "accuracy": 0.6,
+    "macro_f1": 0.5708,
+    "flagged_for_review": 15,
+    "errors_flagged_for_review": 8,
+    "errors": 12,
+    "by_language": {
+      "en": {
+        "n": 20,
+        "accuracy": 0.6
+      },
+      "hi": {
+        "n": 6,
+        "accuracy": 0.5
+      },
+      "te": {
+        "n": 4,
+        "accuracy": 0.75
+      }
+    },
+    "by_phenomenon": {
+      "ambiguous": {
+        "n": 1,
+        "accuracy": 0.0
+      },
+      "mixed": {
+        "n": 3,
+        "accuracy": 1.0
+      },
+      "native": {
+        "n": 5,
+        "accuracy": 0.4
+      },
+      "negation": {
+        "n": 1,
+        "accuracy": 1.0
+      },
+      "plain": {
+        "n": 12,
+        "accuracy": 0.5833
+      },
+      "romanised": {
+        "n": 5,
+        "accuracy": 0.8
+      },
+      "sarcasm": {
+        "n": 2,
+        "accuracy": 0.0
+      },
+      "suggestion": {
+        "n": 1,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "themes": {
+    "micro_precision": 0.8387,
+    "micro_recall": 0.7647,
+    "micro_f1": 0.8
+  },
+  "rows": [
+    {
+      "probe_id": "P01",
+      "text": "Absolutely love this product, battery lasts for days and it works perfectly.",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.83152,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality",
+        "User Experience"
+      ]
+    },
+    {
+      "probe_id": "P02",
+      "text": "The app keeps crashing every time I open my cart. Fix it!",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.89409,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Technical Issues"
+      ],
+      "pred_themes": [
+        "Technical Issues"
+      ]
+    },
+    {
+      "probe_id": "P03",
+      "text": "Delivery was on time, nothing special.",
+      "true": "NEUTRAL",
+      "pred": "NEGATIVE",
+      "confidence": 0.4353,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Delivery"
+      ],
+      "pred_themes": [
+        "Delivery"
+      ]
+    },
+    {
+      "probe_id": "P04",
+      "text": "Great sound quality but the battery dies within two hours.",
+      "true": "MIXED",
+      "pred": "MIXED",
+      "confidence": 0.4399,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality"
+      ]
+    },
+    {
+      "probe_id": "P05",
+      "text": "Customer care never called me back, three days and no reply.",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.72505,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Customer Support"
+      ],
+      "pred_themes": [
+        "Customer Support"
+      ]
+    },
+    {
+      "probe_id": "P06",
+      "text": "Payment failed twice but money got deducted from my account",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.56462,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Payment"
+      ],
+      "pred_themes": [
+        "Payment"
+      ]
+    },
+    {
+      "probe_id": "P07",
+      "text": "Not worth the money at all, very poor quality",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.91848,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Pricing",
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality",
+        "Pricing"
+      ]
+    },
+    {
+      "probe_id": "P08",
+      "text": "Got my refund within 48 hours, impressed with how smooth the return pickup was.",
+      "true": "POSITIVE",
+      "pred": "MIXED",
+      "confidence": 0.30787,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Refunds and Returns"
+      ],
+      "pred_themes": [
+        "Product Quality",
+        "Refunds and Returns"
+      ]
+    },
+    {
+      "probe_id": "P09",
+      "text": "Box arrived crushed and the glass jar inside was cracked.",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.56962,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Packaging"
+      ],
+      "pred_themes": [
+        "Packaging"
+      ]
+    },
+    {
+      "probe_id": "P10",
+      "text": "Oh great, another 'out of stock' notice. Exactly what I needed today.",
+      "true": "NEGATIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.41802,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Product Availability"
+      ],
+      "pred_themes": [
+        "Product Availability"
+      ]
+    },
+    {
+      "probe_id": "P11",
+      "text": "Checkout is so confusing, took me ten minutes to find the apply coupon button.",
+      "true": "NEGATIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.7179,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "User Experience"
+      ],
+      "pred_themes": [
+        "User Experience"
+      ]
+    },
+    {
+      "probe_id": "P12",
+      "text": "The price dropped right after I bought it, a bit annoying, but the product itself is solid.",
+      "true": "MIXED",
+      "pred": "MIXED",
+      "confidence": 0.89885,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Pricing",
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality",
+        "Pricing",
+        "User Experience"
+      ]
+    },
+    {
+      "probe_id": "P13",
+      "text": "I ordered the blue one and received the blue one.",
+      "true": "NEUTRAL",
+      "pred": "NEGATIVE",
+      "confidence": 0.55655,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [],
+      "pred_themes": []
+    },
+    {
+      "probe_id": "P14",
+      "text": "Support agent Priya was patient and sorted out my login issue in one call. Thank you!",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.66319,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Customer Support",
+        "Technical Issues"
+      ],
+      "pred_themes": [
+        "Customer Support"
+      ]
+    },
+    {
+      "probe_id": "P15",
+      "text": "Wow, a whole week for delivery in the same city. Truly lightning fast.",
+      "true": "NEGATIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.39032,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Delivery"
+      ],
+      "pred_themes": [
+        "Delivery"
+      ]
+    },
+    {
+      "probe_id": "P16",
+      "text": "Can you add UPI autopay for subscriptions?",
+      "true": "NEUTRAL",
+      "pred": "NEUTRAL",
+      "confidence": 0.54456,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "Payment"
+      ],
+      "pred_themes": []
+    },
+    {
+      "probe_id": "P17",
+      "text": "Fan is silent and cools the room quickly, totally happy with it",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.93427,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality"
+      ]
+    },
+    {
+      "probe_id": "P18",
+      "text": "The courier was rude, but at least the parcel was intact.",
+      "true": "MIXED",
+      "pred": "MIXED",
+      "confidence": 0.72162,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Delivery",
+        "Packaging"
+      ],
+      "pred_themes": [
+        "Delivery"
+      ]
+    },
+    {
+      "probe_id": "P19",
+      "text": "Website looks clean now after the redesign, much easier to browse.",
+      "true": "POSITIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.335,
+      "needs_human_review": true,
+      "review_reason": "LOW_CONFIDENCE",
+      "method": "MODEL",
+      "true_themes": [
+        "User Experience"
+      ],
+      "pred_themes": [
+        "User Experience"
+      ]
+    },
+    {
+      "probe_id": "P20",
+      "text": "Return window closed before the replacement even arrived, still waiting for my money.",
+      "true": "NEGATIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.58951,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Refunds and Returns"
+      ],
+      "pred_themes": [
+        "Refunds and Returns"
+      ]
+    },
+    {
+      "probe_id": "P21",
+      "text": "Mast product hai, bahut accha laga",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.72825,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality"
+      ]
+    },
+    {
+      "probe_id": "P22",
+      "text": "Delivery bahut late thi aur koi update bhi nahi mila",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.65,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(hi-romanised)",
+      "method": "MODEL+LEXICON_FALLBACK",
+      "true_themes": [
+        "Delivery"
+      ],
+      "pred_themes": [
+        "Delivery"
+      ]
+    },
+    {
+      "probe_id": "P23",
+      "text": "Paisa kat gaya par order confirm nahi hua",
+      "true": "NEGATIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.73554,
+      "needs_human_review": false,
+      "review_reason": null,
+      "method": "MODEL",
+      "true_themes": [
+        "Payment"
+      ],
+      "pred_themes": []
+    },
+    {
+      "probe_id": "P24",
+      "text": "उत्पाद अच्छा है लेकिन कीमत थोड़ी ज़्यादा है",
+      "true": "MIXED",
+      "pred": "POSITIVE",
+      "confidence": 0.65,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(hi)",
+      "method": "MODEL+LEXICON_FALLBACK",
+      "true_themes": [
+        "Product Quality",
+        "Pricing"
+      ],
+      "pred_themes": [
+        "Pricing"
+      ]
+    },
+    {
+      "probe_id": "P25",
+      "text": "ग्राहक सेवा ने तुरंत मदद की, धन्यवाद",
+      "true": "POSITIVE",
+      "pred": "NEUTRAL",
+      "confidence": 0.4037,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(hi)",
+      "method": "MODEL",
+      "true_themes": [
+        "Customer Support"
+      ],
+      "pred_themes": []
+    },
+    {
+      "probe_id": "P26",
+      "text": "पैकिंग फटी हुई थी और सामान टूटा हुआ था",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.3958,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(hi)",
+      "method": "MODEL",
+      "true_themes": [
+        "Packaging"
+      ],
+      "pred_themes": []
+    },
+    {
+      "probe_id": "P27",
+      "text": "Product chala bagundi, chala thanks",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.55595,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(te-romanised)",
+      "method": "MODEL",
+      "true_themes": [
+        "Product Quality"
+      ],
+      "pred_themes": [
+        "Product Quality",
+        "Packaging"
+      ]
+    },
+    {
+      "probe_id": "P28",
+      "text": "Refund inka raaledu, chala late avutundi",
+      "true": "NEGATIVE",
+      "pred": "NEGATIVE",
+      "confidence": 0.4866,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(te-romanised)",
+      "method": "MODEL",
+      "true_themes": [
+        "Refunds and Returns"
+      ],
+      "pred_themes": [
+        "Refunds and Returns"
+      ]
+    },
+    {
+      "probe_id": "P29",
+      "text": "డెలివరీ చాలా ఆలస్యంగా వచ్చింది",
+      "true": "NEGATIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.47531,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(te)",
+      "method": "MODEL",
+      "true_themes": [
+        "Delivery"
+      ],
+      "pred_themes": [
+        "Delivery"
+      ]
+    },
+    {
+      "probe_id": "P30",
+      "text": "యాప్ చాలా బాగుంది, వాడటం సులభం",
+      "true": "POSITIVE",
+      "pred": "POSITIVE",
+      "confidence": 0.44545,
+      "needs_human_review": true,
+      "review_reason": "NON_ENGLISH_LOW_CONFIDENCE(te)",
+      "method": "MODEL",
+      "true_themes": [
+        "User Experience"
+      ],
+      "pred_themes": [
+        "Technical Issues"
+      ]
+    }
+  ]
+}
