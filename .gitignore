@@ -28,3 +28,4 @@ data/exports/full/*
 !data/exports/full/reproducibility_report.json
 !data/exports/full/pipeline_run_summary.json
 data/repro_runs/
+.venv*/
