@@ -14,7 +14,7 @@ The prompts are in [`prompts/`](prompts/README.md), copied verbatim.
 
 ## How the work was split
 
-**Candidate (Siraj):** wrote the detailed build specification and the phase plan, and supplied the
+I wrote the detailed build specification and the phase plan, and supplied the
 official problem statement plus the Submission Guidelines and FAQ PDFs. Directed the agent to treat
 the specification, problem statement and PDFs as a single set of requirements. Owns the
 submission and its technical choices: Python 3.11, FastAPI, Streamlit, PostgreSQL 16 and
